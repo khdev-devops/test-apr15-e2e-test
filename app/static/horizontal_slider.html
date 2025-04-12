@@ -1,0 +1,43 @@
+<!-- 
+Converted from
+https://github.com/saucelabs/the-internet/blob/master/views/dynamic_loading_1.erb
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Horizontal Slider</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+    }
+    .sliderContainer {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="example">
+    <h3>Horizontal Slider</h3>
+    <h4 class="subheader">
+      Set the focus on the slider (by clicking on it) and use the arrow keys to move it right and left. 
+      Or click and drag the slider with your mouse. It will indicate the value of the slider to the right.
+    </h4>
+    <div class="sliderContainer">
+      <input type="range" min="0.0" max="5.0" step="0.5" value="0" onchange="showValue(this.value)">
+      &nbsp;
+      <span id="range">0</span>
+    </div>
+  </div>
+
+  <script>
+    function showValue(newValue) {
+      document.getElementById("range").textContent = newValue;
+    }
+  </script>
+
+</body>
+</html>
