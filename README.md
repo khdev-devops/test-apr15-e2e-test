@@ -70,7 +70,7 @@ Du ska nu testa en webbsida med dynamiskt laddat innehåll. Sidan visar en laddn
    - Är testet robust?
 
 Tips:
-- Läs dokumentationen om [vänta på element](https://playwright.dev/python/docs/wait-for)
+- Läs dokumentationen om [vänta på element](https://playwright.dev/docs/actionability)
 - Använd `expect(...)` istället för `assert` när du testar UI
 
 ## Länkar
