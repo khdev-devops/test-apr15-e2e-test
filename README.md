@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ### 3. Installera Playwright och relaterade verktyg
 
 ```bash
-pip install pytest playwright
+pip install pytest playwright pytest-playwright
 playwright install
 ```
 
