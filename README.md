@@ -60,7 +60,7 @@ Du ska nu testa en webbsida med dynamiskt laddat innehåll. Sidan visar en laddn
 
 ### Din uppgift
 1. Starta appen (`python app/app.py`)
-2. Testa webbsidan manuellt: http://12.0.0.1/dynamic_loading
+2. Testa webbsidan manuellt: http://127.0.0.1/dynamic_loading
     - Vad händer? I vilken sekvens?
 3. Fundera: Vad vill du verifiera? Vad kan gå fel?
 4. Skriv ett test med Playwright
