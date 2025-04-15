@@ -84,6 +84,6 @@ Tips:
 
 ## Klar?
 
-- Prova köra dina test i `headless=True`
+- Prova köra dina test i `headless=False` och prova med olika värden på parametern `slow_mo`
 - Lägg till fler steg i flödet
 - Diskutera med en kompis: vad testas – vad inte?
