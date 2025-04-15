@@ -49,7 +49,7 @@ Du börjar med att titta på ett [färdigt exempeltest](./tests/system/test_exam
 1. Starta appen (`python app/app.py`) i en terminalsession
 2. Starta en ny terminalsession (och aktivera din virtuella pythonmiljö, om du har använder en sådan)
 2. Kör testet (`pytest`) och se att det går igenom
-3. Kör testet med [olika webbläsare]((https://playwright.dev/python/docs/browsers))
+3. Kör testet med [olika webbläsare](https://playwright.dev/python/docs/browsers)
 4. Reflektera:
    - Vad testas – och vad inte?
    - Vad händer om UI ändras? Blir testet instabilt?
